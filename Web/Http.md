@@ -13,18 +13,30 @@
 
 ## Request
 
-### Request Method(요청 방법)
-- **GET** : 데이터 요청
-- HEAD
-- **POST** : 데이터 생성
-- **PUT** : 데이터 전체 수정
-- **DELETE** : 데이터 삭제
-- CONNECT
-- OPTIONS
-- TRACE
-- **PATCH** : 데이터 부분 수정
+### 시작줄
+Request Method(요청 방법)
+> **GET** : 데이터 요청
+HEAD
+**POST** : 데이터 생성
+**PUT** : 데이터 전체 수정
+**DELETE** : 데이터 삭제
+CONNECT
+OPTIONS
+TRACE
+**PATCH** : 데이터 부분 수정
+
+### 헤더
+
+### 본문
 
 ## Response
+
+### 시작줄
+
+### 헤더
+
+### 본문
+
 
 #### Reference
 * [HTTP란 무엇인가](https://www.zerocho.com/category/HTTP/post/5b344f3af94472001b17f2da)
