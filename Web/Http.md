@@ -14,8 +14,8 @@
 ## Request
 
 ### HTTP 메시지
-GET https://www.google.com/ HTTP/3
-ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+GET https://www.google.com/ HTTP/3  
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9  
 ACCEPT-Encoding: gzip, deflate, br...
 
 ### 시작줄
@@ -33,7 +33,7 @@ GET https://www.google.com/ HTTP/3
 		**PATCH : 데이터 부분 수정**
 
 ### 헤더
-ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9  
 ACCEPT-Encoding: gzip, deflate, br...
 - 요청에 대한 정보
 - 서버의 도메인 이름(HOST), 클라이언트의 유형(User-Agent), 응답 데이터의 유형(ACCEPT) 등
@@ -46,8 +46,8 @@ ACCEPT-Encoding: gzip, deflate, br...
 
 ### HTTP 메시지
 HTTP/3 200 OK
-ALT-SVC: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
-BFCACHE-OPT-IN: unload...
+ALT-SVC: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"  
+BFCACHE-OPT-IN: unload...  
 
 <!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="ko"><head><meta charset="UTF-8"><meta content="origin" name="referrer">...
 
@@ -56,7 +56,7 @@ HTTP/3 200 OK
 - HTTP 버전, **상태 코드**, 상태 메시지
 
 ### 헤더
-ALT-SVC: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+ALT-SVC: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"  
 BFCACHE-OPT-IN: unload...
 - 응답에 대한 정보
 - Access-Control-Allow-Origin 등
