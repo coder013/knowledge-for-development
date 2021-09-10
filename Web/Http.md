@@ -22,14 +22,14 @@ ACCEPT-Encoding: gzip, deflate, br...
 GET https://www.google.com/ HTTP/3
 - **요청 방법**, 주소, HTTP 버전
     > **Request Method**(요청 방법)
-        - **GET** : 데이터 요청
-        - HEAD
-        - **POST** : 데이터 생성
-        - **PUT** : 데이터 전체 수정
-        - **DELETE** : 데이터 삭제
-        - CONNECT
-        - OPTIONS
-        - TRACE
+		- **GET** : 데이터 요청  
+        - HEAD  
+        - **POST** : 데이터 생성  
+        - **PUT** : 데이터 전체 수정  
+        - **DELETE** : 데이터 삭제  
+        - CONNECT  
+        - OPTIONS  
+        - TRACE  
         - **PATCH** : 데이터 부분 수정
 
 ### 헤더
@@ -60,7 +60,7 @@ ALT-SVC: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=25920
 BFCACHE-OPT-IN: unload...
 - 응답에 대한 정보
 - Access-Control-Allow-Origin 등
-	> 요청을 보내는 주소와 응답하는 주소가 다를 경우 CORS 오류 발생
+	> 요청을 보내는 주소와 응답하는 주소가 다를 경우 CORS 오류 발생  
 	요청을 보내는 주소를 Access-Control-Allow-Origin에 추가하여 해당 주소의 접근을 허용
 
 ### 본문
