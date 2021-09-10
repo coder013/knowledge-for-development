@@ -21,16 +21,16 @@ ACCEPT-Encoding: gzip, deflate, br...
 ### 시작줄
 GET https://www.google.com/ HTTP/3
 - **요청 방법**, 주소, HTTP 버전
-	**Request Method**(요청 방법)
-		> **GET** : 데이터 요청  
-        HEAD  
-        **POST** : 데이터 생성  
-        **PUT** : 데이터 전체 수정  
-        **DELETE** : 데이터 삭제  
-        CONNECT  
-        OPTIONS  
-        TRACE  
-        **PATCH** : 데이터 부분 수정
+    > **Request Method(요청 방법)**  
+    - **GET : 데이터 요청**  
+    - HEAD  
+    - **POST : 데이터 생성**  
+    - **PUT : 데이터 전체 수정**  
+    - **DELETE : 데이터 삭제**  
+    - CONNECT  
+    - OPTIONS  
+    - TRACE  
+    - **PATCH : 데이터 부분 수정**
 
 ### 헤더
 ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
