@@ -1,2 +1,2 @@
-# tech-interview
-기술 면접 질문 정리
+# Knowledge of Development
+#### 개발 지식
