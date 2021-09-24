@@ -11,6 +11,11 @@
 - 동적인 상태
 
 ## 쓰레드(Thread)
+- 프로세스의 실행 흐름 단위
+- 하나의 프로세스는 최소 1개의 쓰레드를 가지고 있음
 
 #### Reference
+* [쓰레드(Thread)란 무엇인가?](https://goodgid.github.io/What-is-Thread/)
 * [프로세스와 스레드의 차이](https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html)
+* [프로세스와 스레드의 차이](https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+* [Process vs Thread (프로세스와 스레드)](https://www.byfuls.com/programming/read?id=61)
